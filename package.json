@@ -1,0 +1,32 @@
+{
+  "name": "tokopay",
+  "version": "1.0.6-beta",
+  "description": "tokopay client library for Node Js ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yolkmonday/tokopay.git"
+  },
+  "keywords": [
+    "tokopay",
+    "payment gateway",
+    "client",
+    "node",
+    "js",
+    "sdk"
+  ],
+  "author": "yolkmonday <yolkmonday@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yolkmonday/tokopay/issues"
+  },
+  "homepage": "https://github.com/yolkmonday/tokopay#readme",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "request": "^2.88.2",
+    "request-promise-native": "^1.0.9"
+  }
+}
