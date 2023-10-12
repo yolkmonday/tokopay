@@ -1,5 +1,5 @@
-[![CodeFactor](https://www.codefactor.io/repository/github/aripadrian/tokopay/badge)](https://www.codefactor.io/repository/github/aripadrian/tokopay)
-[![Npm package monthly downloads](https://badgen.net/npm/dm/tokopay)](https://npmjs.ccom/package/tokopay)
+[![CodeFactor](https://www.codefactor.io/repository/github/yolkmonday/tokopay/badge)](https://www.codefactor.io/repository/github/yolkmonday/tokopay)
+[![Npm package monthly downloads](https://badgen.net/npm/dm/tokopay)](https://npmjs.com/package/tokopay)
 
 # Tokopay Client for Node Js
 
