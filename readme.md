@@ -35,8 +35,8 @@ const client = new tokopay("YOUR MERCHANT ID","YOUR SECRET");
 const createOrder = await client.simpleOrder(refId, metode, nominal);
 ```
 
-> Note:
-> RefID adalah kode transaksi unik kamu yang di generate secara acak
+> Note:<br/>
+> RefID adalah kode transaksi unik kamu yang di generate secara acak<br/>
 > Metode adalah Kode dari Metode Pembayaran, Bisa dilihat di  [Docs Tokopay](https://docs.tokopay.id).
 
 
