@@ -22,58 +22,25 @@ yarn add tokopay
 ```
 
 ## Pemakaian
-Dapatkan Merchant ID dan Secret Key Anda di [tokopay Dashboard](https://member.tokopay.id/pengaturan/secret-key).
+Dapatkan Merchant ID dan Secret Key Anda di [tokopay Dashboard](https://dash.tokopay.id/pengaturan/secret-key).
 
 ```js
 const tokopay = require('tokopay');
 const client = new tokopay("YOUR MERCHANT ID","YOUR SECRET");
 ```
 
-
-### Cek Saldo
-```js
-let saldo = await client.cekSaldo();
-```
-
-### Cek Akun Game
-```js
-let saldo = await client.cekAkunGame(gameCode, userId);
-```
-
-> Game yang tersedia : mobilelegend , freefire, higgs
-
-### Cek Status Koneksi
-```js
-Coming Soon
-```
-
-### Transaksi
+### Membuat Simple Order
 
 ```js
-let transaksi = await client.transaksi(productCode, tujuan, refId);
+const createOrder = await client.simpleOrder(refId, metode, nominal);
 ```
 
 > Note:
 > RefID adalah kode transaksi unik kamu yang di generate secara acak
+> Metode adalah Kode dari Metode Pembayaran, Bisa dilihat di  [Docs Tokopay](https://docs.tokopay.id).
 
-### Cek Status Transaksi
-```js
-Coming Soon
-```
 
-### Radeem Kiosgamer Garena Shell Bulk
-```js
-Coming Soon
-```
-
-### Cek Status Radeem Kiosgamer Garena Shell Bulk
-```js
-Coming Soon
-```
-
-### License
-
-[MIT](https://github.com/aripadrian/tokopay/blob/master/LICENSE)
+[MIT](https://github.com/yolkmonday/tokopay/blob/master/LICENSE)
 
 ### Author
 
