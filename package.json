@@ -1,6 +1,6 @@
 {
   "name": "tokopay",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "tokopay client library for Node Js ",
   "main": "index.js",
   "scripts": {
